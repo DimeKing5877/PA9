@@ -1,6 +1,11 @@
 #include "Ball.hpp"
+#include "Window.hpp"
+
+
 int main() {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "Bouncing Ball");
+	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Tanks.io");
+	
+
 	Ball ball(400, 300, 20, 5, 5);
 	while (window.isOpen()) {
 		sf::Event event;
