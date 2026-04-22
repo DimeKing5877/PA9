@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Ball.hpp" />
+    <ClInclude Include="BasicShapes.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BasicShapes.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
